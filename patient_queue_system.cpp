@@ -14,7 +14,7 @@ public:
     void addPatient(string name)
     {
         patients.push(name);
-        cout << name << " queue mein add ho gaya.\n";
+        cout << name << " is added in the queue .\n";
     }
 
     // Show first patient
@@ -22,7 +22,7 @@ public:
     {
         if (patients.empty())
         {
-            cout << "Queue empty hai.\n";
+            cout << "Queue is empty.\n";
         }
         else
         {
@@ -36,7 +36,7 @@ public:
     {
         if (patients.empty())
         {
-            cout << "Queue empty hai.\n";
+            cout << "Queue is empty.\n";
         }
         else
         {
@@ -50,7 +50,7 @@ public:
     {
         if (patients.empty())
         {
-            cout << "Koi patient queue mein nahi hai.\n";
+            cout << "No one Patient is waiting.\n";
         }
         else
         {
@@ -72,9 +72,9 @@ public:
     void checkQueue()
     {
         if (patients.empty())
-            cout << "Queue empty hai.\n";
+            cout << "Queue is empty.\n";
         else
-            cout << "Queue mein patients mojood hain.\n";
+            cout << "Few Patients are waiting.\n";
     }
 };
 
