@@ -1,37 +1,59 @@
-# 🏥 Patient Queue Management System
+# Patient Queue Management System
 
-A simple **C++ Patient Queue Management System** that demonstrates how the **Queue Data Structure** works using the C++ Standard Template Library (STL).
+This is a simple C++ program for managing patients using a **Queue**.
 
-In this program, patients are added to a queue and served according to the **FIFO (First In, First Out)** principle.
+The program uses the C++ STL `queue` and follows the **FIFO (First In, First Out)** concept. This means the patient who comes first will be served first.
 
----
+## Features
 
-## 📌 Features
+The program can:
 
-This program provides the following operations:
+* Add a patient to the queue
+* Show the first patient
+* Show the last patient
+* Remove/serve the first patient
+* Show the total number of patients
+* Check if the queue is empty
 
-- ➕ Add a patient to the queue
-- 👤 Show the next patient
-- 👥 Show the last patient
-- ✅ Serve/remove the first patient
-- 🔢 Show total number of patients
-- 📋 Check whether the queue is empty or not
+## Queue Example
 
----
-
-## 🧠 Queue Concept
-
-A Queue follows the:
-
-> **FIFO — First In, First Out**
-
-This means the patient who enters the queue first will be served first.
-
-### Example
+Suppose these patients are added:
 
 ```text
-Queue:
-
 Ali → Talha → Ijaz → Ahmed
- ↑
-First patient
+```
+
+`Ali` will be served first because he entered the queue first.
+
+After removing Ali:
+
+```text
+Talha → Ijaz → Ahmed
+```
+
+## Concepts Used
+
+* C++
+* Queue
+* STL
+* FIFO
+* `push()`
+* `pop()`
+* `front()`
+* `back()`
+* `empty()`
+* `size()`
+
+## How to Run
+
+Save the code in a C++ file, for example:
+
+```text
+main.cpp
+```
+
+Compile and run it using any C++ compiler.
+
+## Author
+
+Talha Ijaz
